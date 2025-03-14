@@ -1,0 +1,35 @@
+form{
+    background-color: rgb(149, 109, 187); /* fundo */
+    border-radius: 25px; /* borda da pagina*/
+    width: 600px;
+    padding: 20px; /* espaçamento entre a borda e o conteúdo*/
+    
+}
+
+label{
+    display: block; /* padrão (fixar na vertical) */ 
+}
+
+input{
+    width: 100%; /* largura */
+    padding: 2px; /* espaçamento*/
+    border: 1px solid rgb(122, 64, 128) ;
+    border-radius: 5px;
+
+}
+
+input[type="submit"]{ /* vai alterar o botão do tipo submit  */ 
+    background-color: rgb(68, 68, 105);
+    color: antiquewhite;
+    border: none;
+    margin-top: 15px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(33, 33, 68);
+}
+
+
+
